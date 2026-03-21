@@ -13,10 +13,10 @@ import zaleskar.tutorial.block.ModBlocks;
 public class ModItemGroups {
     public static final ItemGroup PINK_GARNET_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(Tutorialmod.MOD_ID, "pink_garnet_items"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.PINK_GRANET))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.PINK_GARNET))
             .displayName(Text.translatable("itemgroup.tutorialmod.pink_garnet_items"))
             .entries((displayContext, entries) -> {
-                entries.add(ModItems.PINK_GRANET);
+                entries.add(ModItems.PINK_GARNET);
                 entries.add(ModItems.RAW_PINK_GARNET);
             }).build());
 
